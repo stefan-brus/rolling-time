@@ -1,0 +1,16 @@
+{
+  "name": "rollingtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollingtime.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "printf": "^0.5.1",
+    "yargs": "^12.0.5"
+  }
+}
