@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "node test/rollingtime_test.js"
+    "test": "node test/rollingtime_test.js && node --expose_gc --max-old-space-size=4096 --max-semi-space-size=2048 test/memory_test.js"
   },
   "keywords": [],
   "author": "",

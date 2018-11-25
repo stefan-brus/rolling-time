@@ -25,3 +25,7 @@ node = 10.13.0
 - The format of the printed table is not perfect...
 
 - Validate the input value of `TAU` when creating new window objects.
+
+- Add performance tests for CPU usage.
+
+- Automate memory performance test to ensure no memory leaks.
