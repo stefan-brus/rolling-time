@@ -10,6 +10,7 @@ node = 10.13.0
 
 - yargs: Simple parsing of command-line arguments
 - printf: Print to console using C-style format strings
+- almost-equal: Comparison of floating point numbers
 
 ## Future improvements
 
@@ -22,3 +23,5 @@ node = 10.13.0
 - Improve the build process with automated test runs and linter.
 
 - The format of the printed table is not perfect...
+
+- Validate the input value of `TAU` when creating new window objects.
