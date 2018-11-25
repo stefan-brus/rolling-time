@@ -95,7 +95,7 @@ function main(args) {
 
 function parseObservation(line, rtw) {
     const numPair = line.split('\t');
-    if (numPair.length != 2) {
+    if (numPair.length !== 2) {
         return `Expected format: \${TIMESTAMP}\t\${COST}, got: ${line}`;
     }
 
