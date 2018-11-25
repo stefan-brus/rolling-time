@@ -150,7 +150,9 @@ function printTableHeader() {
 
 function printUsage() {
     console.log("Usage:");
-    console.log("rollingtime --input (path-to-input-file) [--tau (window-size)]");
+    console.log("node main.js --input (path-to-input-file) [--tau (window-size)]");
+    console.log("or");
+    console.log("npm start -- -input (path-to-input-file) [--tau (window-size)]");
 }
 
 // Actual entry point
